@@ -81,9 +81,12 @@ header{
 nav{
     width: 50%;
     /* background-color: tomato;; */
+    /* display: flex; */
+    /* justify-content: end; */
 }
 nav ul{
     height: 100%;
+    /* width: 50%; */
     /* background-color: aquamarine; */
     list-style-type: none;
     display: flex;
