@@ -17,8 +17,20 @@
     npm install
     //npm run dev
 # Technologies used
+* React js
+  * JavaScript library used for building user interfaces
 * Vite
   * Creating new React js project.
+* React Router Dom V6
+  * Routing library for react applications.
+* Axios
+  * For handling API requests
+* Redux toolkit
+  * State management library for react projects.
+* Redux-persist
+  * For persisting the state on refresh
+* bootstrap
+  * CSS library   
 # User Interface
 
 ## EMS Dashboard
