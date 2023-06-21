@@ -7,6 +7,8 @@ import NotFoundPage from "./Pages/NotFoundPage";
 import Login from "./Pages/Login";
 import { useSelector } from "react-redux";
 import AllEventList from "./Components/AllEventsComponents/AllEventList";
+import Footer from "./Components/Footer";
+
 function App() {
   const { user, isLoading, isError } = useSelector((state) => state.auth);
   const auth = useSelector((state) => state.auth);
@@ -37,6 +39,7 @@ function App() {
               <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </div>
+          <Footer/>
         </BrowserRouter>
       </div>
     </>

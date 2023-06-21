@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="logo-container">
           <Link to="/">
             <div className="Logo">
-              <h1>Event management system</h1>
+              <p>Event management system</p>
             </div>
           </Link>
         </div>

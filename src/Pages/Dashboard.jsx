@@ -6,7 +6,7 @@ const Dashboard = () => {
   return (
     <>
     <div className="dashboardPage">
-    <h2>Dashboard</h2>
+    {/* <h2>Dashboard</h2> */}
     <div id='dashboard'>
     <section id='add-form-section'>
       <AddForm/>
