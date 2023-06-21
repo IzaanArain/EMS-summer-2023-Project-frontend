@@ -2,7 +2,7 @@ import React from "react";
 import DeleteButton from "./DeleteButton";
 import EditButton from "./EditButton";
 import { useSelector } from "react-redux";
-
+import formatDistanceToNow from "date-fns/formatDistanceToNow";
 const EventCard = ({ data }) => {
   const {user}=useSelector((state)=>state.auth)
   const { title, description,date,time,location,createdAt } = data;
@@ -25,7 +25,10 @@ const EventCard = ({ data }) => {
             <DeleteButton data={data}/>
             <EditButton data={data}/>
         </div>
-        <h6 className="card-footer">{createdAt}</h6>
+        <h6 className="card-footer">
+          {/* {createdAt} */}
+          {formatDistanceToNow(new Date(createdAt), { addSuffix: true })}
+        </h6>
       </div>
     </>
   );

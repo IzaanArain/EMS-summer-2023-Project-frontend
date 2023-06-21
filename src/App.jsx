@@ -6,7 +6,7 @@ import Register from "./Pages/Register";
 import NotFoundPage from "./Pages/NotFoundPage";
 import Login from "./Pages/Login";
 import { useSelector } from "react-redux";
-
+import AllEventList from "./Components/AllEventsComponents/AllEventList";
 function App() {
   const { user, isLoading, isError } = useSelector((state) => state.auth);
   const auth = useSelector((state) => state.auth);
@@ -21,6 +21,10 @@ function App() {
               <Route
                 path="/"
                 element={user ? <Dashboard /> : <Navigate to="/login" />}
+              />
+               <Route
+                path="/allevents"
+                element={user ? <AllEventList /> : <Navigate to="/login" />}
               />
               <Route
                 path="/login"
