@@ -3,7 +3,7 @@ EMS is a comprehensive application designed to help users keep track of their ev
 
 To access the application's functionalities, users are required to sign up and log in. The authentication process is implemented using JSON Web Tokens (JWT), a popular method for securing web applications. Once logged in, users can view their personal events, providing a personalized experience within the application.
 
-This was built using the MERN stack, which includes MongoDB, Express.js, React, and Node.js.By leveraging these technologies, EMS offers a seamless experience for users to track their fitness activities, ensuring that their data is securely stored and easily accessible.
+This was built using the MERN stack, which includes MongoDB, Express.js, React, and Node.js.By leveraging these technologies, EMS offers a seamless experience for users to track their events, ensuring that their data is securely stored and easily accessible.
 
 ## Features
 
