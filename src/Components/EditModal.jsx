@@ -49,7 +49,7 @@ function EditModal(props) {
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
           {/* Form id:{newEditEvent.id} */}
-          Form 
+          Edit Form 
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
