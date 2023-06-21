@@ -1,4 +1,9 @@
 # Event Management System (EMS)
+EMS is a comprehensive application designed to help users keep track of their events.It provides features such as adding, editing, reading, and deleting events, allowing users to manage their events effectively. The application follows the CRUD (Create, Read, Update, Delete) operations, ensuring that all activity-related tasks are performed correctly.
+
+To access the application's functionalities, users are required to sign up and log in. The authentication process is implemented using JSON Web Tokens (JWT), a popular method for securing web applications. Once logged in, users can view their personal events, providing a personalized experience within the application.
+
+This was built using the MERN stack, which includes MongoDB, Express.js, React, and Node.js.By leveraging these technologies, EMS offers a seamless experience for users to track their fitness activities, ensuring that their data is securely stored and easily accessible.
 
 ## Features
 
@@ -30,7 +35,9 @@
 * Redux-persist
   * For persisting the state on refresh
 * bootstrap
-  * CSS library   
+  * CSS library
+* Date-fns
+  * for formatting dates in javascript 
 # User Interface
 
 ## EMS Dashboard
