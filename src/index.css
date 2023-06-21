@@ -23,7 +23,7 @@ width: 80vw;
     padding: 10px;
 }
 .dashboardPage{
-    background-color:orange;
+    background-color: #333;
 }
 #dashboard{
     display: flex;
@@ -56,7 +56,7 @@ width: 80vw;
 
 header{
     width: 100%;
-    background-color: #FFFF99;
+    background-color: #333;
     font-family: cursive;
     height: 10vh;
     display: flex;
@@ -70,7 +70,7 @@ header{
 }
 .logo-container a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .logo-container a:hover{
     color: red;
@@ -94,7 +94,7 @@ nav ul{
 nav a{
     text-decoration: none;
     font-size: 2rem;
-    color: black;
+   color: white;
 }
 nav a:hover{
     color: red;
@@ -105,18 +105,23 @@ nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(../public/people.jpg)no-repeat center center/ cover;;
+    background-color: #333;
 }
 .loginPage{
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(../public/people.jpg)no-repeat center center/ cover;;
+    background-color: #333;
 }
 
 #myFooter{
     height:10vh;
     text-align: center;
-    background-color: tomato;
+    background-color:#333;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;

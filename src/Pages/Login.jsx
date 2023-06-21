@@ -38,7 +38,7 @@ const Login = () => {
   return (
    <>
    <div className="loginPage">
-   <div className="card" style={{width:"50%"}}>
+   <div className="card bg-dark text-light" style={{width:"50%"}}>
     <div className="card-header">Login Form</div>
     <div className="card-body">
     <Form onSubmit={handleLoginSubmit}> 

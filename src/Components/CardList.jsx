@@ -17,7 +17,7 @@ const CardList = () => {
   },[dispatch])
   return (
     <>
-    <h5 style={{textAlign:"center"}}>Event List</h5>
+    <h5 style={{textAlign:"center",color:"white"}}>Event List</h5>
    <div className="scrollable">
    <div id="card_list">
     {

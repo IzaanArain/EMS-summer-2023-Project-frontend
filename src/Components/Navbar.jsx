@@ -32,7 +32,7 @@ const Navbar = () => {
                   <Link to="/allevents">all events</Link>
                 </li>
                 <li>
-                  <span>{user.email}</span>
+                  <span style={{color:"white"}}>{user.email}</span>
                   <LogoutButton />
                 </li>
               </>
