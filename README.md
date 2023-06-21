@@ -16,6 +16,7 @@
     //install npm packages
     npm install
     //npm run dev
+# Technologies used
 
 # User Interface
 
