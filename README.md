@@ -32,6 +32,8 @@ This was built using the MERN stack, which includes MongoDB, Express.js, React, 
   * For handling API requests
 * Redux toolkit
   * State management library for react projects.
+* Redux createAsyncThunk
+  * Redux middleware for handling async requests such as fetching data from an API
 * Redux-persist
   * For persisting the state on refresh
 * bootstrap
