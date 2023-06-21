@@ -18,7 +18,7 @@
     //npm run dev
 # Technologies used
  - vite
- - -Creating new React js project.
+   -Creating new React js project.
 # User Interface
 
 ## EMS Dashboard
