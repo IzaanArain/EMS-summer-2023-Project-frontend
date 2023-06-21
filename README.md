@@ -8,6 +8,16 @@
 - Responsive design
 - react-bootstrap
 
+# Getting started
+Indented code
+    //clone the repo
+    git clone https://github.com/IzaanArain/EMS-summer-2023-Project-frontend.git
+    // change the directory
+    cd EMS-summer-2023-Project-frontend
+    //install npm packages
+    npm install
+    //npm run dev
+
 ## Project-sceenshoots
 
 ## EMS Dashboard
