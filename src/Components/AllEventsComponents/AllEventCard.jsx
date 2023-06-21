@@ -2,12 +2,13 @@ import {useEffect} from 'react'
 import { useSelector } from "react-redux";
 import formatDistanceToNow from "date-fns/formatDistanceToNow";
 
-const AllEventCard = ({data}) => {
+const AllEventCard = ({data,index}) => {
     const { title, description,date,time,location,createdAt } = data;
   return (
     <>
     <div className="card" id="event_card">
-    <h5 className="card-header">{data._id}</h5>
+    {/* <h5 className="card-header">{data._id}</h5> */}
+    <h5 className="card-header">{index+1})</h5>
       <div className="card-body">
         <h3 className="card-title"><span style={{fontWeight:"bolder"}}>Title :</span> {title}</h3>
         <h4 style={{fontWeight:"bolder"}}>Description:</h4>

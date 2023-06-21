@@ -1,9 +1,10 @@
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
-import { useDispatch } from "react-redux"
+import { useDispatch,useSelector } from "react-redux"
 import { deleteEventAsync,deleteEvent } from "../Features/Events/EventSlice";
 
 function DeleteModal(props) {
+  const {user}=useSelector((state)=>state.auth)
     const {data,onHide}=props
     const dispatch=useDispatch()
     // console.log(data._id)

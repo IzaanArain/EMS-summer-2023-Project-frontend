@@ -4,6 +4,7 @@ import Form from "react-bootstrap/Form";
 import { useState,useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { userLoginAsync } from "../Features/Auth/AuthSlice";
+import { Link } from "react-router-dom";
 
 const Login = () => {
     const [loginUser, setloginUser] = useState({
@@ -70,6 +71,9 @@ const Login = () => {
         Login
       </Button>
     </Form>
+    </div>
+    <div className="card-footer">
+      <h4>Don't have account <Link to="/register">SignUp Now!</Link></h4>
     </div>
    </div>
    </div>

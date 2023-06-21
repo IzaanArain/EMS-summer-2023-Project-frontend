@@ -19,10 +19,10 @@ const AllEventList = () => {
     <div id="allEventList">
         {/* <h1>these are all events</h1> */}
         <div id="card_list">
-        {allEvents.map((val)=>{
+        {allEvents.map((val,index)=>{
             return(
                 <Fragment key={val._id}>
-                <AllEventCard data={val}/>
+                <AllEventCard data={val} index={index}/>
                 </Fragment>
             )
         })}

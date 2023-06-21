@@ -3,9 +3,10 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
 import { useState,useEffect } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch,useSelector } from "react-redux";
 import { updateEventAsync,updateEvent } from "../Features/Events/EventSlice";
 function EditModal(props) {
+  const {user}=useSelector((state)=>state.auth)
   const { newEditEvent, handleEditFormChange,data,onHide } = props;
   const dispatch = useDispatch();
 
