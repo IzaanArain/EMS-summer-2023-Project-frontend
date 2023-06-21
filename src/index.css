@@ -1,0 +1,111 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#event_card{
+    width: 30%;
+    margin: 1rem;
+    background-color: #FFFF99;
+    font-family: cursive;
+}
+
+#card-section{
+width: 80vw;
+/* background-color: aqua; */
+}
+
+#add-form-section{
+    width: 20vw;
+    /* background-color:red; */
+    padding: 10px;
+}
+.dashboardPage{
+    background-color:orange;
+}
+#dashboard{
+    display: flex;
+}
+#card_list{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card_buttons_list{
+    /* background-color:azure; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 10%;
+}
+#card_button{
+    width: 40%;
+    font-weight: bolder;
+}
+
+.scrollable{
+    height: 500px;
+    overflow: scroll;
+}
+
+header{
+    background-color: #FFFF99;
+    font-family: cursive;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+ .logo-container{
+    width: 50%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-container a{
+    text-decoration: none;
+    color: black;
+}
+.logo-container a:hover{
+    color: red;
+}
+
+nav{
+    width: 50%;
+    /* background-color: orange; */
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+nav a:hover{
+    color: red;
+}
+
+.registerPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
