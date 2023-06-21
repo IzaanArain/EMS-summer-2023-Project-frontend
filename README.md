@@ -9,7 +9,6 @@
 - react-bootstrap
 
 # Getting started
-Indented code
     //clone the repo
     git clone https://github.com/IzaanArain/EMS-summer-2023-Project-frontend.git
     // change the directory
