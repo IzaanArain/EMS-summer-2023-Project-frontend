@@ -1,16 +1,18 @@
 import React from "react";
 import DeleteButton from "./DeleteButton";
 import EditButton from "./EditButton";
+import { useSelector } from "react-redux";
 
 const EventCard = ({ data }) => {
+  const {user}=useSelector((state)=>state.auth)
   const { title, description,date,time,location,createdAt } = data;
   return (
     <>
       <div className="card" id="event_card">
-      <h3 className="card-header"><span style={{fontWeight:"bolder"}}>Title :</span> {title}</h3>
+      <h3 className="card-header"><span style={{fontWeight:"bolder"}}>Name :</span> {user.fname} {user.lname}</h3>
       {/* <h5>{data._id}</h5> */}
         <div className="card-body">
-          {/* <h3 className="card-title"><span style={{fontWeight:"bolder"}}>Title :</span> {title}</h3> */}
+          <h3 className="card-title"><span style={{fontWeight:"bolder"}}>Title :</span> {title}</h3>
           <h4 style={{fontWeight:"bolder"}}>Description:</h4>
           <p className="card-text">{description}</p>
           <p><span style={{fontWeight:"bolder"}}>Date :</span> {date}</p>
