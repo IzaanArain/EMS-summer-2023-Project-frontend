@@ -12,6 +12,9 @@
 ## EMS Dashboard
 ![ems-dashboard](https://github.com/IzaanArain/EMS-summer-2023-Project-frontend/assets/102476680/cbf0b626-9817-4cb7-a580-cc5ec5544c5d)
 
+## EMS RSVP (In-progress)
+![RSVP-ems-all-User-Events](https://github.com/IzaanArain/EMS-summer-2023-Project-frontend/assets/102476680/8f762271-eaa6-40dc-bd51-a48a26724d55)
+
 ## EMS-Login-page
 ![ems-login](https://github.com/IzaanArain/EMS-summer-2023-Project-frontend/assets/102476680/028562dd-6f95-4a4b-ae62-303a5370744d)
 
