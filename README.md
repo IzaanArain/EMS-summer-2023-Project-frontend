@@ -2,8 +2,8 @@
 
 ## Features
 
-- All CRUD operation 
-- jwt authentication
+- User can login/register through jwt authentication
+- User can read, create, delete, and update.
 - Responsive design
 - react-bootstrap
 
