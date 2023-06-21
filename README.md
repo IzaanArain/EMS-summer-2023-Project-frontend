@@ -17,7 +17,7 @@
     npm install
     //npm run dev
 
-## Project-sceenshoots
+## User Interface
 
 ## EMS Dashboard
 ![ems-dashboard](https://github.com/IzaanArain/EMS-summer-2023-Project-frontend/assets/102476680/cbf0b626-9817-4cb7-a580-cc5ec5544c5d)
