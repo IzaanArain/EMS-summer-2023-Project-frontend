@@ -101,11 +101,13 @@ nav a:hover{
 }
 
 .registerPage{
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .loginPage{
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -43,7 +43,7 @@ const Register = () => {
 return (
 <>
 <div className="registerPage">
-<div className="card" style={{width:"50%",marginTop:"5rem"}}>
+<div className="card" style={{width:"50%"}}>
 <div className="card-header">Register Form</div>
 <div className="card-body">
 <Form onSubmit={handleRegisterSubmit}> 
