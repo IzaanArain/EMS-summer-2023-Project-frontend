@@ -3,7 +3,8 @@
 ## Features
 
 - User can login/register through jwt authentication
-- User can read, create, delete, and update.
+- User can read, create, delete, and update events
+- -RSVP in progress
 - Responsive design
 - react-bootstrap
 
