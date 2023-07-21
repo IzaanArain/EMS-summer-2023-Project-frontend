@@ -7,13 +7,16 @@ const initialState = {
   isError: false,
 };
 
+const url="http://localhost:5000";
+const new_url="https://ems-backend-izaan.vercel.app";
+
 export const userLoginAsync = createAsyncThunk(
   "auth/userLoginAsync",
   async (payload) => {
     // console.log(payload)
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/users/login/",
+        `${new_url}/api/users/login/`,
         {
           email: payload.email,
           password: payload.password,
@@ -41,7 +44,7 @@ export const userRegisterAsync = createAsyncThunk(
     // console.log(payload)
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/users/register/",
+        `${new_url}/api/users/register/`,
         {
           fname: payload.fname,
           lname: payload.lname,

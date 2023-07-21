@@ -7,13 +7,16 @@ const initialState = {
   isError: false,
 };
 
+const url='http://localhost:5000';
+const new_url="https://ems-backend-izaan.vercel.app";
+
 export const getAllEventsAsync = createAsyncThunk(
   "allEvents/getAllEventsAsync",
   async () => {
     const data=localStorage.getItem("user");
     const user=JSON.parse(data)
     try {
-      const response = await axios.get("http://localhost:5000/api/events/eventlist/", {
+      const response = await axios.get(`${new_url}/api/events/eventlist/`, {
         headers: {
           Authorization: `Bearer ${user.token}`,
         },

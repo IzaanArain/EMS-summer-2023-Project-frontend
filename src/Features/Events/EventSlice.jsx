@@ -2,6 +2,9 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { useSelector } from "react-redux";
 
+const url="http://localhost:5000";
+const new_url="https://ems-backend-izaan.vercel.app";
+
 export const getEventsAsync = createAsyncThunk(
   "events/getEventsAsync",
   async () => {
@@ -20,7 +23,7 @@ export const getEventsAsync = createAsyncThunk(
 
       //axios
       const response = await axios.get(
-        "http://localhost:5000/api/events/",
+        `${new_url}/api/events/`,
         {
         headers:{
           "Authorization":`Bearer ${user.token}`
@@ -44,7 +47,7 @@ export const addEventAsync = createAsyncThunk(
     const user=JSON.parse(data)
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/events/",
+        `${new_url}/api/events/`,
         {
           title: payload.title,
           description: payload.description,
@@ -75,7 +78,7 @@ export const deleteEventAsync=createAsyncThunk(
     const data=localStorage.getItem("user");
     const user=JSON.parse(data)
     try{
-      const response=axios.delete(`http://localhost:5000/api/events/${payload.id}`,
+      const response=axios.delete(`${new_url}/api/events/${payload.id}`,
       {
         headers: {
           "Content-Type": "application/json",
@@ -99,7 +102,7 @@ export const updateEventAsync=createAsyncThunk(
     const user=JSON.parse(data)
     try {
       const response = await axios.put(
-        `http://localhost:5000/api/events/${payload.id}`,
+        `${new_url}/api/events/${payload.id}`,
         {
           title: payload.title,
           description: payload.description,
